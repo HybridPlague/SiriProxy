@@ -27,8 +27,8 @@ class SiriProxy::Plugin::Example < SiriProxy::Plugin
     #    modifications made to it)
   end 
 
-  listen_for /test siri proxy/i do
-    say "Siri Proxy is up and running!" #say something to the user!
+  listen_for /Who made this server/i do
+    say "Tristen Russ!" #say something to the user!
     
     request_completed #always complete your request! Otherwise the phone will "spin" at the user!
   end
